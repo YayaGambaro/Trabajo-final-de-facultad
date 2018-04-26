@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WarnerBros</title>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" type="image/x-icon" href="img/logo2.png">
+		<link rel="stylesheet" href="css/estilos.css" type="text/css"/>
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<link rel="stylesheet" href="css/responsiveslides.css">
+		<link rel="stylesheet" href="css/demo.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="js/responsiveslides.min.js"></script>
+		<style type="text/css">
+		#col-izq{
+			position:absolute;
+			z-index:1000;
+		}
+		#col-der{
+			margin:0;
+			width:100%;
+			min-height:100%;
+		}
+		#slider1{
+			display:block;
+		}
+		#slider2{
+			display:none;
+		}
+		@media (max-width: 400px){
+		#footer2{
+			position:absolute;
+			bottom:0;
+			width:100%;
+			padding-bottom:1%;
+			padding-top:1%;
+			background:black;
+			z-index:1000;
+		}
+		#slider1{
+		display:none;
+		}
+		#slider2{
+		display:block;
+		}
+		}
+		@media (max-width: 800px) and (min-width:400px){
+		#footer2{
+			position:absolute;
+			bottom:0;
+			width:100%;
+			padding-bottom:1%;
+			padding-top:1%;
+			background:black;
+			z-index:1000;
+		}
+		#slider1{
+			display:none;
+		}
+		#slider2{
+			display:block;
+		}
+		}
+		</style>
+	</head>
+	<body>
+		<div id="principal">
+			<div id="col-izq">
+				<header>
+				<div id="marca">
+						<div> <a title ="WarnerBros" href="home.html"><img id="logo" src="img/logo.png" alt="logo"/></a></div>
+						<a href ="#" id="menub">MENU</a>
+						<a href="home.html" id="warner">WarnerBros.com</a>
+				</div>
+					<nav>
+							<ul>
+							<li class="desplegable"><div>The Studio</div>
+								<ul class="submenu">
+									<li class="menu1"> <a href="about.html">About the Studio</a></li>
+									<li class="menu1"> <a href="divisions.html">Divisions</a></li>
+									<li class="menu1"> <a href="services.html">Services</a></li>
+								</ul></li>
+							<li class="desplegable"><div>Movies</div>
+								<ul class="submenu">
+									<li class="menu1"> <a href="mthreater.html">In Threaters</a></li>
+									<li class="menu1"> <a href="mentertaiment.html">Home Entertainment</a></li>
+									<li class="menu1"> <a href="marchive.html">Warner Archive</a></li>
+								</ul></li>
+							<li class="desplegable"><div>Television</div>
+								<ul class="submenu">
+									<li class="menu1"> <a href="tonair.html">On Air</a></li>
+									<li class="menu1"> <a href="tentertaiment.html">Home Entertainment</a></li>
+									<li class="menu1"> <a href="tarchive.html">Warner Archive</a></li>
+								</ul></li>
+							<li class="desplegable"><div>VideoGames</div>
+								<ul class="submenu">
+									<li class="menu1"> <a href="videogames.html">VideoGames</a></li>
+									<li class="menu1"> <a href="mobile.html">Mobile Games</a></li>
+								</ul></li>
+							<li class="mas"> <a href="soundtrack.html"><div>Soundtracks</div></a></li>
+							<li class="mas"> <a href="warnershop.html"><div>WarnerShop</div></a></li>
+						</ul>
+					</nav>
+				</header>
+				<footer id="footer1">
+						<div id="sociales">
+							<a title="Facebook" href="https://www.facebook.com/warnerbrosent"><img src="img/facebook.png" alt="facebook" class="redessociales"/></a>
+							<a title="Twitter" href="https://twitter.com/Warnerbrosent"><img src="img/twitter.png" alt="twitter" class="redessociales"/></a>
+							<a title="Instagram" href="http://instagram.com/warnerbrosentertainment"><img src="img/instagram.png" alt="instagram" class="redessociales"/></a>
+							<a title="Youtube" href="http://www.youtube.com/user/WarnerBrosOnline/featured"><img src="img/youtube.png" alt="youtube" class="redessociales"/></a>
+						</div>
+						<p>TM & © 2014</p>
+						<p>Warner Bros. Entertainment Inc.</p>
+				</footer>
+			</div>
+		<div id="col-der">
+			<div id="wrapper">
+				<ul class="rslides" id="slider1">
+					<li><img src="img/01.jpg" alt=""></li>
+					<li><img src="img/02.jpg" alt=""></li>
+					<li><img src="img/03.jpg" alt=""></li>
+					<li><img src="img/04.jpg" alt=""></li>
+					<li><img src="img/05.jpg" alt=""></li>
+					<li><img src="img/06.jpg" alt=""></li>
+					<li><img src="img/07.jpg" alt=""></li>
+					<li><img src="img/08.jpg" alt=""></li>
+					<li><img src="img/09.jpg" alt=""></li>
+					<li><img src="img/10.jpg" alt=""></li>
+				</ul>
+			</div>
+			<div id="wrapper2">
+				<ul class="rslides" id="slider2">
+					<li><img src="img/01a.jpg" alt=""></li>
+					<li><img src="img/02a.jpg" alt=""></li>
+					<li><img src="img/03a.jpg" alt=""></li>
+					<li><img src="img/04a.jpg" alt=""></li>
+					<li><img src="img/05a.jpg" alt=""></li>
+					<li><img src="img/06a.jpg" alt=""></li>
+					<li><img src="img/07a.jpg" alt=""></li>
+					<li><img src="img/08a.jpg" alt=""></li>
+					<li><img src="img/09a.jpg" alt=""></li>
+					<li><img src="img/10a.jpg" alt=""></li>
+				</ul>
+			</div>
+		</div>
+			<footer id="footer2">
+						<p>TM & © 2014 Warner Bros. Entertainment Inc. </p>
+						<div id="sociales2">
+							<a title="Facebook" href="https://www.facebook.com/warnerbrosent"><img src="img/facebook.png" alt="facebook" class="redessociales"/></a>
+							<a title="Twitter" href="https://twitter.com/Warnerbrosent"><img src="img/twitter.png" alt="twitter" class="redessociales"/></a>
+							<a title="Instagram" href="http://instagram.com/warnerbrosentertainment"><img src="img/instagram.png" alt="instagram" class="redessociales"/></a>
+							<a title="Youtube" href="http://www.youtube.com/user/WarnerBrosOnline/featured"><img src="img/youtube.png" alt="youtube" class="redessociales"/></a>
+						</div>
+			</footer>
+		</div>
+		<script>
+			$(".desplegable").click( function() {
+				$(".submenu").hide();
+				$(this).children(".submenu").show();
+			});
+			$("#menub").click( function() {
+				$(this).parent().next("nav").toggle();
+			});
+		    $(function () {
+
+			$("#slider1").responsiveSlides({
+				maxwidth: 2000,
+				speed: 800,
+			});  
+			$("#slider2").responsiveSlides({
+				maxwidth: 800,
+				speed: 800,
+			});
+			});
+
+		    
+		</script>
+	</body>
+</html>

@@ -1,0 +1,787 @@
+	@font-face {
+		font-family: open;
+		src: url(../fonts/OpenSans-Regular.ttf);
+	}
+		
+	html{
+		background: white;
+		padding-top: 0;
+		margin-top: 0;
+		height:100%;
+		font-family: open, sans-serif;			
+	}
+	body{
+		padding: 0;
+		height:100%;
+		margin: 0;
+	}
+	#principal{
+		height:100%;
+		/*margin:auto;*/
+		min-height:100%
+
+	}
+	#banner {
+		width:100%;
+		}
+	#col-izq{
+		height: 100%;
+		background: url(../img/fondocompu.png);
+		width: 18%;
+		color:white;
+		position:fixed;
+		background-size: 100%;
+		box-shadow: 10px 0px 20px #000000;
+	}
+	#col-izq header nav{
+		padding-top: 20%;
+	}
+	#col-izq header li{
+		list-style-type:none;
+		padding-top: 3.5%;
+		padding-bottom: 3.5%;
+	}
+	#col-izq header li a{
+		display: block;
+	}
+	#col-izq header ul{
+		padding-left: 0;
+	}
+	#menub{
+		display:none;
+	}
+	.desplegable div{
+		padding-left: 20%;
+	}
+	.mas div{
+		padding-left: 20%;
+	}
+	li{
+		border-top:2px solid black;
+	}
+	.desplegable{
+		cursor: pointer;
+	}
+	.submenu{
+		display:none;
+		background: url(../img/tramitablanca.png);
+		padding-right: 0;
+		width: 100%;	
+	}
+	.submenu li{
+		padding-left: 20%;
+		padding-top: 8%;
+	}
+	.submenu a{
+		color: black;
+	}
+	.mas{
+		color:black;
+	}
+	#marca{
+		margin: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+		padding-top: 8%;
+	}
+	#logo{
+		height:100px;
+	}
+	#warner{
+		font-size: 0.8em;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+	}
+	#footer1{
+		position: absolute;
+		bottom: 2%;
+		margin: auto;
+		left:0;
+		right:0;
+		text-align: center;
+	}
+	.redessociales{
+		height: 30px;
+	}
+	#footer1 p{
+		padding-top: 0;
+		padding-bottom: 0;
+		font-size: 0.6em;
+	}
+	#footer2{
+		display:none;
+	}
+	.sel{
+		background: #ffac63;
+	}
+	ul .selec{
+			display: block;
+	}
+	#col-der{
+		background: white;
+		margin-left: 18%;
+		width: 82%;
+		min-height:100%;
+	}
+
+	footer {
+		color:white;
+	}
+	#blanco{
+		background: white;
+		margin-top: -5px;
+		padding-left: 3%;
+		padding-bottom: 2%;
+	}
+	#blanco .fotos{
+		float: right;
+		width: 45%;
+		padding-right: 3%;
+		max-width: 470px;
+	}
+
+	#blanco .fotos p{
+		width: 100%;
+		text-align: center;
+		font-size: 0.8em;
+		font-style: italic;
+		margin-top: 0px;
+	}
+	#blanco .fotos img{
+		width: 100%
+	}
+	#blanco  h1{
+		margin: 0;
+		padding-top: 3%;
+		font-size: 2em;
+		padding-bottom: 2%;
+	}
+	#blanco  h2{
+		width: 45%;
+		margin: 0;
+		padding-top: 2%;
+		font-size: 1.2em;
+		padding-bottom: 0%;
+		color:  #d76a0a;
+	}
+	#blanco p{
+		width: 46%;
+		margin: 0;
+		font-size: 0.9em;
+	}
+	
+	.parche {
+		clear:both;
+	}
+	
+	.flecha1{
+		display: none;
+	}
+	.flecha2{
+		display: none;
+	}
+	.sel {
+		position:relative;
+	}
+	
+	.sel .flecha {
+		position: absolute;
+		width:18px;
+		height:48px;
+		display:inline-block;
+		right:-17px;
+		top:0;
+		background: url(../img/flecha.png) no-repeat;
+		background-size: 100%;
+		z-index: 200;
+	}
+	#detallefotos img{
+		width: 25%;
+		background-size: 100%;
+		float: left;
+		margin: 0%;
+		padding: 0%;	
+	}
+	#detallealfabetico{
+		display: none;
+	}
+	#ff{
+		display: none;
+	}
+	#video{	
+		margin-top: 3%;
+	}
+	#blanco #col1{
+		width: 48%;
+		margin-right: 10%;
+		float: left;
+	}
+	#blanco #col1 h2{
+		margin-right: 0%;
+		width: 100%;
+	}
+	#blanco #col1 p{
+		margin-right: 0%;
+		width: 100%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+	#blanco #col2{
+		padding-right: 2%;
+		width: 40%;
+		margin: 0%;
+		float: left;
+	}
+	#blanco #col2 #personajes{
+		width: 100%;
+		height: 320px;
+	}
+	.personajitos{
+		width:30%;
+		float: left;
+		padding: 1%;
+	}
+	.find {
+		float:left;
+		width: 50%;
+		margin-right: 3%;
+	}
+	
+	#blanco .personajitos p {
+		width: 0;
+		margin-top: 5%;
+	}
+
+	#blanco #col2 h3{
+		display: block; 
+		float: none;
+	}
+	#blanco #col2 .capitulos p{
+		font-size: 0.7em;
+		width:98%;
+		column-count: 2;
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		width-column: 45%;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		padding-left: 3%;
+		padding-right: 0%;
+		border-left: 2px solid black;
+		border-right: 2px solid black;
+		border-bottom: 2px solid black;
+	}
+	.capitulos{
+		background: white;
+		display: none;
+		clear: both;
+	}
+	#blanco #col2 .numtemps{
+		color: black;
+		font-size: 1em;
+		border: 2px solid black;
+		background: url(../img/tramanaranja.jpg);
+		display: block;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		padding-left: 3%;
+		width: 98%;
+		clear: both;
+	}
+	iframe{
+		width: 100%;
+		height: 400px;
+	}
+
+	
+	@media (max-width:800px) and (min-width:400px){
+		
+		#col-izq{
+			top:0;
+			margin:0;
+			position:relative;
+			z-index:1000;
+			width:100%;
+			height:100%;
+			height: 140px;
+			background: url(../img/fondocompu2.png);
+			box-shadow: 0px 10px 20px #000000;
+		}
+		#logo{
+		position:absolute;
+		left:5%;
+		top:20%;
+		height:75px;
+		}
+		#menub{
+			display:none;
+			font-size: 1.1em;
+			padding-bottom:4%;
+		}
+		.desplegable{
+			font-size:0.8em;
+			color:white;
+			
+		}
+		.submenu{
+			position:absolute;
+			z-index:800;
+			top:100%;
+			right:0;
+			width:146%;
+			height:40px;
+			background: url(../img/barratablet.png);
+			margin:auto;
+			text-align:center;
+		}
+		#warner{
+			display:none;
+		}
+
+		#col-izq header nav{
+			position:absolute;
+			left:30%;
+			width:70%;
+			top:10%;
+			padding-top:0;
+			text-align:center;
+			display:block;
+		}
+		#col-izq header li{
+			margin-left:0;
+			width:30%;
+			float:left;
+			padding-top:1.6%;
+			
+		}
+		.desplegable div{
+			padding-left: 0%;
+		}
+		li {
+		border:none; 
+		}
+		.mas div{
+			padding-left: 0%;
+		}
+		#col-izq nav ul .submenu li{
+			padding-top: 8px;
+			padding-bottom: 8px;
+			padding-left:0;
+			padding-right:0;
+			width:30%;
+			text-align:center;
+			float:none;
+			display: inline-block;
+			
+		}
+		
+		.mas a{
+			font-size:0.8em;
+			color:white;
+		}
+		#footer1{
+			display:none;
+		}
+		#footer2{
+			background: black;
+			margin:auto;
+			margin-top: -1.2%;
+			display:block;
+			text-align:center;
+			padding-top: 2%;
+		}
+		#footer2 p{
+			font-size: 0.6em;
+			text-align: left;
+			margin-left: 3%;
+			width: 60%;
+			padding-right: 0%;
+			margin-right: 0%;
+			bottom: 2%;
+			float: left;
+		}
+		#col-der{
+		margin:0%;
+		width: 100%;
+		min-height:100%;
+		}
+
+	footer {
+		color:white;
+	}
+	#blanco{
+		background: white;
+		margin-top: 0px;
+		padding-top:3%;
+		padding-left: 3%;
+		padding-bottom: 3%;
+	}
+	#blanco .fotos{
+		float: right;
+		width: 45%;
+		padding-right: 3%;
+	}
+
+	#blanco .fotos p{
+		width: 100%;
+		text-align: center;
+		font-size: 0.8em;
+		font-style: italic;
+		margin-top: 0px;
+	}
+	#blanco .fotos img{
+		width: 100%
+	}
+	#blanco  h1{
+		margin: 0;
+		padding-top: 3%;
+		font-size: 2em;
+		padding-bottom: 2%;
+	}
+	#blanco  h2{
+		width: 45%;
+		margin: 0;
+		padding-top: 2%;
+		font-size: 1.2em;
+		padding-bottom: 0%;
+		color:  #d76a0a;
+	}
+	#blanco p{
+		width: 46%;
+		margin: 0;
+		font-size: 0.9em;
+	}
+	.flechas{
+		display: none;
+	}
+	.seleccionado{
+		color: #ffac63;
+	}
+	.sel{
+		font-weight: bold;
+		background: transparent;
+	}
+	.sel .flecha{
+		display: none;
+	}
+	#detallefotos img{
+		display: none;
+	}
+	#detallealfabetico{
+		display: block;
+		background: white;
+		padding-top: 3%;
+		min-height: 100%;
+		position: relative;
+	}
+		.flecha3{
+			display: inline-block;
+			background: url(../img/flechanegra2.png) no-repeat;		
+			width:20px;
+			height:15px;
+			background-size: 100%;
+			margin-right: 6%;
+		}
+		.flecha4{
+			display: inline-block;
+			background: url(../img/flechanaranja2.png) no-repeat;		
+			width:15px;
+			height:20px;
+			background-size: 100%;
+			margin-right: 6%;
+		}
+		.series{
+			display:none;
+			clear:both;
+			background: #ffac63;
+			width: 66%;
+			position: absolute;
+			left: 34%;
+			border-left: 2px solid black;
+			top: 5%;
+		}
+		.series a{
+			padding-left: 4%;
+			color: black;
+			display: block;
+			border-bottom: 1px solid black;
+			border-top: 1px solid black;
+			padding-bottom: 2%;
+			padding-top: 2%;
+			
+		}
+		.orden{
+			clear:both;
+			padding-left: 4%;
+			margin: 0;
+			background: url(../img/tramitablanca.png);
+			height: 40px;
+			cursor: pointer;
+			border-top: 2px solid black;
+			padding-top: 2%;
+			font-size: 1.4em;
+			padding-bottom: 0%;
+			color:  black;
+			width: 30%;
+		}	
+		#ff{
+			display: block;
+			width: 100%;
+		}
+		#blanco #col1{
+			width: 100%;
+			margin: 0%;
+		}
+		#blanco #col1 h2{
+			width: 92%;
+			padding-left: 3%;
+			padding-right: 3%;
+		}
+		#blanco #col1 p{
+			width: 92%;
+			padding-left: 3%;
+			padding-right: 3%;
+		}
+		#blanco #col2{
+			display: none;
+		}
+		iframe{
+			width: 100%;
+			height: 400px;
+			padding: 0%;
+		}
+	}
+
+	@media (max-width:400px){
+		
+		#col-izq{
+			top:0;
+			margin:0;
+			position:relative;
+			min-height:130px;
+			width:100%;
+			height:auto;
+			background: url(../img/fondocompu2.png);
+			box-shadow: 0px 10px 20px #000000;
+		}
+		#menub{
+			display:block;
+			font-size: 1.1em;
+			padding-bottom:4%;
+		}
+		.desplegable{
+			background-color:#ffac63;
+			color:black;
+		}
+		.submenu{
+			margin:auto;
+		}
+		#warner{
+			display:none;
+		}
+
+		#col-izq header nav{
+			padding-top:0;
+			text-align:center;
+			display:none;
+		}
+		#col-izq header li{
+			margin-left:0;
+			
+		}
+		.desplegable div{
+			padding-left: 0%;
+		}
+		.mas div{
+			padding-left: 0%;
+		}
+		.submenu li{
+			padding-left: 0%;
+		}
+		.mas{
+			 background-color:#ffac63;
+			 color:black;
+		} 
+		.mas a{
+			color:black;
+		}
+		#footer1{
+			display:none;
+		}
+		#footer2{
+			display:block;
+			margin:auto;
+			text-align:center;
+			padding-bottom:1%;
+			padding-top:1%;
+			
+		}
+		#footer2 p{
+			font-size: 0.6em;
+		}
+		#col-der{
+			width: 100%;
+			margin-left: 0%;
+			padding-left: 0%;
+		}
+		#blanco  h1{
+			padding-left: 4%;
+			padding-right: 2%;
+			margin: 0;
+			padding-top: 3%;
+			font-size: 2.3em;
+			padding-bottom: 2%;
+		}
+		.clickeando{
+			padding-left: 4%;
+			padding-right: 2%;
+			margin: 0;
+			background: url(../img/tramitablanca.png);
+			height: 40px;
+			width: 100%;
+			cursor: pointer;
+
+		}
+		#blanco h2{
+			width: 100%;
+			margin-bottom: 2%;
+			margin-top: 2%;
+			padding-top: 2%;
+			padding-bottom: 2%;
+			font-size: 1.4em;
+			padding-bottom: 0%;
+			color:  black;
+		}
+		.click{
+			display:none;
+			padding-right: 0;
+			width: 100%;
+			clear:both;
+		}
+		.clickeando{
+			clear:both;
+		}
+		#blanco p{
+			width: 92%;
+			padding-left: 4%;
+			padding-right: 2%;
+			margin: 0;
+			font-size: 1em;
+		}
+		#blanco{
+			padding: 0%;
+			padding-bottom: 5%;
+		}
+		#blanco .fotos{
+			width: 100%;
+			padding: 0%;
+			margin-bottom: 5%;
+			margin-top: 5%;
+		}
+
+		#blanco .fotos p{
+			width: 100%;
+			text-align: center;
+			font-size: 0.8em;
+			font-style: italic;
+			margin-top: 0px;
+		}
+		#blanco .fotos img{
+			width: 100%
+		}
+		.flecha1{
+			display: inline-block;
+			background: url(../img/flechanegra.png) no-repeat;		
+			width:15px;
+			height:20px;
+			background-size: 100%;
+			margin-right: 6%;
+		}
+		.flecha2{
+			display: inline-block;
+			background: url(../img/flechanaranja.png) no-repeat;		
+			width:20px;
+			height:15px;
+			background-size: 100%;
+			margin-right: 6%;
+		}
+		.flecha3{
+			display: inline-block;
+			background: url(../img/flechanegra2.png) no-repeat;		
+			width:20px;
+			height:15px;
+			background-size: 100%;
+			margin-right: 6%;
+		}
+		.flecha4{
+			display: inline-block;
+			background: url(../img/flechanaranja2.png) no-repeat;		
+			width:15px;
+			height:20px;
+			background-size: 100%;
+			margin-right: 6%;
+		}
+		.series{
+			display:none;
+			clear:both;
+			background: #ffac63;
+		}
+		.series a{
+			padding-left: 4%;
+			color: black;
+			width: 100%;
+			display: block;
+			border-bottom: 1px solid black;
+			padding-bottom: 3%;
+			padding-top: 3%;
+			
+		}
+		.orden{
+			clear:both;
+			padding-left: 4%;
+			margin: 0;
+			background: url(../img/tramitablanca.png);
+			height: 40px;
+			cursor: pointer;
+			border-top: 2px solid black;
+			padding-top: 2%;
+			font-size: 1.4em;
+			padding-bottom: 0%;
+			color:  black;
+		}	
+		#detallefotos img{
+			display: none;
+		}
+		#detallealfabetico{
+			display: block;
+			min-height: 100%;
+		}
+		#ff{
+			display: block;
+			width: 100%;
+		}
+		#blanco #col1{
+			width: 100%;
+			margin: 0%;
+		}
+		#blanco #col1 h2{
+			width: 92%;
+			padding-left: 3%;
+			padding-right: 3%;
+			color: #d76a0a;
+		}
+		#blanco #col1 p{
+			width: 92%;
+			padding-left: 3%;
+			padding-right: 3%;
+		}
+		#blanco #col2{
+			display: none;
+		}
+		iframe{
+			display: none;
+		}
+	}

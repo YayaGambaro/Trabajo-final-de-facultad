@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WarnerBros</title>
+		<meta charset="utf-8" />
+		
+		<link rel="shortcut icon" type="image/x-icon" href="img/logo2.png">
+		<link rel="stylesheet" href="css/estilos.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		
+		<style type="text/css">
+
+		#blanco{
+			background: white;
+			height: auto;
+		}
+		
+		@media (max-width: 400px){
+		
+			#footer2{
+				width:100%;
+				padding-bottom:1%;
+				padding-top:1%;
+				background:black;
+			}
+		}
+		
+		</style>
+	</head>
+	
+	<body>
+		<div id="principal">
+			<div id="col-izq">
+				<header>
+				<div id="marca">
+						<div> <a title ="WarnerBros" href="home.html"><img id="logo" src="img/logo.png" alt="logo"/></a></div>
+						<a href ="#" id="menub">MENU</a>
+						<a href="home.html" id="warner">WarnerBros.com</a>
+				</div>
+				
+					<nav>
+							<ul>
+							<li class="desplegable seleccionado"><div>The Studio</div>
+								<ul class="submenu selec">
+									<li class="menu1"> <a href="about.html">About the Studio</a></li>
+									<li class="menu1"> <a href="divisions.html">Divisions</a></li>
+									<li class="menu1 sel"> <a href="services.html"><span class="flecha"></span>Services</a></li>
+								</ul></li>
+							<li class="desplegable"><div>Movies</div>
+								<ul class="submenu">
+									<li class="menu1"> <a href="mthreater.html">In Threaters</a></li>
+									<li class="menu1"> <a href="mentertaiment.html">Home Entertainment</a></li>
+									<li class="menu1"> <a href="marchive.html">Warner Archive</a></li>
+								</ul></li>
+							<li class="desplegable"><div>Television</div>
+								<ul class="submenu">
+									<li class="menu1"> <a href="tonair.html">On Air</a></li>
+									<li class="menu1"> <a href="tentertaiment.html">Home Entertainment</a></li>
+									<li class="menu1"> <a href="tarchive.html">Warner Archive</a></li>
+								</ul></li>
+							<li class="desplegable"><div>VideoGames</div>
+								<ul class="submenu">
+									<li class="menu1"> <a href="videogames.html">VideoGames</a></li>
+									<li class="menu1"> <a href="mobile.html">Mobile Games</a></li>
+								</ul></li>
+							<li class="mas"> <a href="soundtrack.html"><div>Soundtracks</div></a></li>
+							<li class="mas"> <a href="warnershop.html"><div>WarnerShop</div></a></li>
+						</ul>
+					</nav>
+				</header>
+				
+				<footer id="footer1">
+						<div id="sociales">
+							<a title="Facebook" href="https://www.facebook.com/warnerbrosent"><img src="img/facebook.png" alt="facebook" class="redessociales"/></a>
+							<a title="Twitter" href="https://twitter.com/Warnerbrosent"><img src="img/twitter.png" alt="twitter" class="redessociales"/></a>
+							<a title="Instagram" href="http://instagram.com/warnerbrosentertainment"><img src="img/instagram.png" alt="instagram" class="redessociales"/></a>
+							<a title="Youtube" href="http://www.youtube.com/user/WarnerBrosOnline/featured"><img src="img/youtube.png" alt="youtube" class="redessociales"/></a>
+						</div>
+						<p>TM & © 2014</p>
+						<p>Warner Bros. Entertainment Inc.</p>
+				</footer>
+
+			</div>
+			
+			<div id="col-der">
+				<img id="banner" src="img/banner.jpg" alt="banner"/>
+				<div id="blanco">
+					
+						<h1> About WB Services</h1>
+						<div class="fotos">
+							<img src="img/about4.jpg" alt="Warner"/>
+							<p>Warner Bros Studios L.A. Entrance</p>
+						</div>
+						<p>Warner Bros. Studios offers many services to the community. From finding a job to renting a stage on the historic Warner Bros. lot and more, here's everything you need to know about:
+						Clip & Still Licensing - For entities interested in licensing use of Warner Bros.' photographic and video properties
+						Production Services - Warner Bros. Studio Facilities
+						VIP Tours - Arrange a trip to the historic Warner Bros. lot
+						Special Events - Learn how to rent out the Warner Bros. studio for you or your company's private events
+						Warner Bros. Careers - If you are interested in working at Warner Bros; this is the place to look
+						Have further questions or inquiries? You can contact us here.</p>
+
+					
+				</div>
+				
+			</div>
+			<footer id="footer2">
+						<p>TM & © 2014 Warner Bros. Entertainment Inc. </p>
+						<div id="sociales2">
+							<a title="Facebook" href="https://www.facebook.com/warnerbrosent"><img src="img/facebook.png" alt="facebook" class="redessociales"/></a>
+							<a title="Twitter" href="https://twitter.com/Warnerbrosent"><img src="img/twitter.png" alt="twitter" class="redessociales"/></a>
+							<a title="Instagram" href="http://instagram.com/warnerbrosentertainment"><img src="img/instagram.png" alt="instagram" class="redessociales"/></a>
+							<a title="Youtube" href="http://www.youtube.com/user/WarnerBrosOnline/featured"><img src="img/youtube.png" alt="youtube" class="redessociales"/></a>
+						</div>
+						
+			</footer>
+		</div>
+		<script>
+			$(".desplegable").click( function() {
+				$(".submenu").hide();
+				$(this).children(".submenu").show();
+			});
+			$("#menub").click( function() {
+				$(this).parent().next("nav").toggle();
+			});
+		
+		    
+		</script>
+	</body>
+</html>
